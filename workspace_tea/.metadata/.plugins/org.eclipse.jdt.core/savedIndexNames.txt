@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\workspace_tea\.metadata\.plugins\org.eclipse.jdt.core
+3910477638.index
+409556741.index
+2031971651.index
+1865797976.index

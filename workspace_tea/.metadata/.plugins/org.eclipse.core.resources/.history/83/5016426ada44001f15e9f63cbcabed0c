@@ -1,0 +1,19 @@
+package com.tea.it;
+
+import java.util.Scanner;
+
+public class Menu {
+	public void show() {
+		
+		Scanner scan = new Scanner(System.in);
+		while (true) {
+			System.out.println();
+			System.out.println("TEA MENU");
+			System.out.println("1.LIST");
+			System.out.println("2.WRITE");
+			System.out.println("Q.EXIT");
+			System.out.println(" :choose menu");
+		}
+	}
+	
+}
