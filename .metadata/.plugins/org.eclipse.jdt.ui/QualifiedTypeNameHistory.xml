@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.global.yp.board.Menu"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.global.yp.board.BoardWrite"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.global.yp.board.BoardUpdate"/>
+    <fullyQualifiedTypeName name="com.global.yp.board.BoardDelete"/>
+    <fullyQualifiedTypeName name="com.global.yp.board.BoardList"/>
+</qualifiedTypeNameHistroy>

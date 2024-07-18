@@ -1,0 +1,50 @@
+package com.global.yp.board;
+
+import java.util.Scanner;
+
+public class Menu {
+	public void show() {
+
+		Scanner scan = new Scanner(System.in);
+		while (true) {
+			System.out.println();
+			System.out.println("BOARD MENU");
+			System.out.println("1.LIST");
+			System.out.println("Q.EXIT");
+			System.out.println(":choose menu");
+			String menu = scan.next();
+			if ("Q".equals(menu)) {
+				break;
+			}
+			if ("1".equals(menu)) {
+				System.out.println();
+				System.out.println("[BOARD LIST]");
+				try {
+					new BoardList().list();
+					while (true) {
+						System.out.println();
+						System.out.println("[LIST MENU]");
+						System.out.println("1.READ");
+						System.out.println("Q.EXIT");
+						System.out.println(":choose menu");
+						menu = scan.next();
+						if ("Q".equals(menu)) {
+							break;
+						}
+						if ("1".equals(menu)) {
+							System.out.println();
+							System.out.println("[BOARD READ]");
+						}
+
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
+					System.out.println("Program is error.");
+				}
+
+			}
+		}
+		System.out.println();
+		System.out.println("program is shut down");
+	}
+}

@@ -1,0 +1,10 @@
+package com.global.yp.test;
+
+public class ConnectionTest {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+		Class.forName("org.mariadb.jdbc.Driver");
+
+	}
+
+}

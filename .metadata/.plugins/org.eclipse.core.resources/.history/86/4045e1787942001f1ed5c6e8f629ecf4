@@ -1,0 +1,25 @@
+package com.global.yp.test;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class ConnectionTest {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Class.forName("org.mariadb.jdbc.Driver");
+		Connection conn = DriverManager.getConnection(
+				"jdbc:mariadb://localhost:3307/board"
+				,"root"
+				,"1234");
+				System.out.println(conn);
+				String sql ="insert into board(title,content) values(?,?)";
+				PreparedStatement ps= conn.prepareStatement(sql);
+				ps.setString(1, "title 1");
+				ps.setString(2, "content 1");
+				int count =ps.executeUpdate();
+				System.out.println(count);
+				}
+
+}
