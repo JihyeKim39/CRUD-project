@@ -48,6 +48,7 @@ public class Menu {
 									new TeaUpdate().update(seq);
 									System.out.println();
 									new TeaList().read(seq);
+									break;
 								}
 								if ("2".equals(menu)) {
 									System.out.println();
