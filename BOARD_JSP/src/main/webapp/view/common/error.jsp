@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>index.jsp</title>
+<title>Insert title here</title>
 </head>
 <body>
-	<h1>Index.jsp</h1>
-	<br>
-	<%=request.getAttribute("now")%>
-	<form action="/BOARD_JSP/jsp"></form>
+	<script>
+		alert('error..');
+		document.location.href = '/BOARD_JSP'
+	</script>
 </body>
 </html>
