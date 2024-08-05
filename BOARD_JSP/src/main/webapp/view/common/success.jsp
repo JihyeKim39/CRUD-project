@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +9,7 @@
 <body>
 	<script>
 		alert('success..');
-		document.location.href = '/BOARD_JSP'
+		document.location.href = '/BOARD_JSP/'
 	</script>
 </body>
 </html>

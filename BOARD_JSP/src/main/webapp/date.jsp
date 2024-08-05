@@ -1,15 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>index.jsp</title>
+<title>Insert title here</title>
 </head>
 <body>
-	<h1>Index.jsp</h1>
+	index.jsp
 	<br>
-	<%=request.getAttribute("now")%>
-	<form action="/BOARD_JSP/jsp"></form>
+	<%= request.getAttribute("now") %>
 </body>
 </html>

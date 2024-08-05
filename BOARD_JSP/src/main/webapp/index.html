@@ -4,15 +4,19 @@
 <meta charset="EUC-KR">
 <title>Insert title here</title>
 </head>
-<body>index.html
+<body>
+	index.html
 	<ul>
 		<li id="list">LIST</li>
 		<li id="write">WRITE</li>
 	</ul>
 	<script>
-		document.getElemenById('list').addEventListner('click', function(){
-			document.location.href ='/BOARD_JSP/board/list.glo';
-		})
+		document.getElementById('list').addEventListener('click', function(){
+			document.location.href = '/BOARD_JSP/board/list.glo'; 
+		});
+		document.getElementById('write').addEventListener('click', function(){
+			document.location.href = '/BOARD_JSP/board/insertForm.glo'; 
+		});
 	</script>
 </body>
 </html>
